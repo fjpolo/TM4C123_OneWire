@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DPART_TM4C123GH6PM -Dgcc -I..\..\..\workspace\Test033 - OneWirev4\inc -I..\..\..\workspace\Test033 - OneWirev4 -I..\..\..\workspace -I..\..\..\workspace\Test033 - OneWirev4\third_party\fatfs\src -I..\..\..\workspace\Test033 - OneWirev4\third_party -I..\..\..\workspace\Test033 - OneWirev4\datalogger -I..\..\..\workspace\Test033 - OneWirev4\third_party\fatfs -I..\..\.. -I..\..\..\workspace\Test033 - OneWirev4\cmsis -I..\..\..\workspace\Test033 - OneWirev4\driverlib">
+      <target file="uart.o" lastModified="157e8da8721">
+         <source file="..\..\..\driverlib\uart.c" lastModified="154343bca87"/>
+      </target>
+      <target file="syscalls.o" lastModified="157e8da94cc">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1573d564182"/>
+      </target>
+      <target file="crc.o" lastModified="157e8da9318">
+         <source file="..\..\..\driverlib\crc.c" lastModified="154343bca58"/>
+      </target>
+      <target file="watchdog.o" lastModified="157e8da907c">
+         <source file="..\..\..\driverlib\watchdog.c" lastModified="154343bca8c"/>
+      </target>
+      <target file="hibernate.o" lastModified="157e8da7ad8">
+         <source file="..\..\..\driverlib\hibernate.c" lastModified="154343bca6a"/>
+      </target>
+      <target file="i2c.o" lastModified="157e8da8202">
+         <source file="..\..\..\driverlib\i2c.c" lastModified="154343bca6c"/>
+      </target>
+      <target file="cpu.o" lastModified="157e8da9c11">
+         <source file="..\..\..\driverlib\cpu.c" lastModified="154343bca57"/>
+      </target>
+      <target file="qei.o" lastModified="157e8da99ee">
+         <source file="..\..\..\driverlib\qei.c" lastModified="154343bca77"/>
+      </target>
+      <target file="shamd5.o" lastModified="157e8da8f24">
+         <source file="..\..\..\driverlib\shamd5.c" lastModified="154343bca7d"/>
+      </target>
+      <target file="oneWire.o" lastModified="157e8fdcd44">
+         <source file="..\..\..\oneWire.c" lastModified="157e8fdbed7"/>
+      </target>
+      <target file="comp.o" lastModified="157e8da90f6">
+         <source file="..\..\..\driverlib\comp.c" lastModified="154343bca56"/>
+      </target>
+      <target file="lcd.o" lastModified="157e8da995c">
+         <source file="..\..\..\driverlib\lcd.c" lastModified="154343bca6f"/>
+      </target>
+      <target file="fpu.o" lastModified="157e8da87af">
+         <source file="..\..\..\driverlib\fpu.c" lastModified="154343bca67"/>
+      </target>
+      <target file="udma.o" lastModified="157e8da9d34">
+         <source file="..\..\..\driverlib\udma.c" lastModified="154343bca89"/>
+      </target>
+      <target file="sw_crc.o" lastModified="157e8da8857">
+         <source file="..\..\..\driverlib\sw_crc.c" lastModified="154343bca80"/>
+      </target>
+      <target file="ssi.o" lastModified="157e8da957c">
+         <source file="..\..\..\driverlib\ssi.c" lastModified="154343bca7e"/>
+      </target>
+      <target file="pwm.o" lastModified="157e8da860c">
+         <source file="..\..\..\driverlib\pwm.c" lastModified="154343bca75"/>
+      </target>
+      <target file="mpu.o" lastModified="157e8da9429">
+         <source file="..\..\..\driverlib\mpu.c" lastModified="154343bca70"/>
+      </target>
+      <target file="aes.o" lastModified="157e8da92a5">
+         <source file="..\..\..\driverlib\aes.c" lastModified="154343bca53"/>
+      </target>
+      <target file="datalogger.o" lastModified="158158e09b1">
+         <source file="..\..\..\datalogger\datalogger.c" lastModified="158158de8d6"/>
+      </target>
+      <target file="flash.o" lastModified="157e8da82b7">
+         <source file="..\..\..\driverlib\flash.c" lastModified="154343bca65"/>
+      </target>
+      <target file="delay.o" lastModified="157e8f97f51">
+         <source file="..\..\..\datalogger\delay.c" lastModified="15629a089b7"/>
+      </target>
+      <target file="emac.o" lastModified="157e8da8502">
+         <source file="..\..\..\driverlib\emac.c" lastModified="154343bca61"/>
+      </target>
+      <target file="sysctl.o" lastModified="157e8da8bfe">
+         <source file="..\..\..\driverlib\sysctl.c" lastModified="154343bca82"/>
+      </target>
+      <target file="interrupt.o" lastModified="157e8da93b2">
+         <source file="..\..\..\driverlib\interrupt.c" lastModified="154343bca6d"/>
+      </target>
+      <target file="eeprom.o" lastModified="157e8da9eaa">
+         <source file="..\..\..\driverlib\eeprom.c" lastModified="154343bca5e"/>
+      </target>
+      <target file="gpio.o" lastModified="157e8da91e9">
+         <source file="..\..\..\driverlib\gpio.c" lastModified="154343bca68"/>
+      </target>
+      <target file="des.o" lastModified="157e8da9dfc">
+         <source file="..\..\..\driverlib\des.c" lastModified="154343bca5a"/>
+      </target>
+      <target file="sysexc.o" lastModified="157e8da9b26">
+         <source file="..\..\..\driverlib\sysexc.c" lastModified="154343bca83"/>
+      </target>
+      <target file="usb.o" lastModified="157e8da8dce">
+         <source file="..\..\..\driverlib\usb.c" lastModified="154343bca8b"/>
+      </target>
+      <target file="startup_Cortex_M4.o" lastModified="157e8da9bab">
+         <source file="..\..\..\cmsisboot\startup\startup_Cortex_M4.c" lastModified="1573d5f929d"/>
+      </target>
+      <target file="mmc-dk-tm4c123g.o" lastModified="157e8da9aaf">
+         <source file="..\..\..\third_party\fatfs\port\mmc-dk-tm4c123g.c" lastModified="1547244556b"/>
+      </target>
+      <target file="timer.o" lastModified="157e8da83b1">
+         <source file="..\..\..\driverlib\timer.c" lastModified="154343bca86"/>
+      </target>
+      <target file="can.o" lastModified="157e8da8ff4">
+         <source file="..\..\..\driverlib\can.c" lastModified="154343bca55"/>
+      </target>
+      <target file="adc.o" lastModified="157e8da9665">
+         <source file="..\..\..\driverlib\adc.c" lastModified="154343bca52"/>
+      </target>
+      <target file="ff.o" lastModified="157e8da97f7">
+         <source file="..\..\..\third_party\fatfs\src\ff.c" lastModified="1547295f0a5"/>
+      </target>
+      <target file="main.o" lastModified="157e92b8fb2">
+         <source file="..\..\..\main.c" lastModified="157e92b5765"/>
+      </target>
+      <target file="systick.o" lastModified="157e8da9c86">
+         <source file="..\..\..\driverlib\systick.c" lastModified="154343bca84"/>
+      </target>
+      <target file="epi.o" lastModified="157e8da895c">
+         <source file="..\..\..\driverlib\epi.c" lastModified="154343bca63"/>
+      </target>
+   </processor>
+</history>
